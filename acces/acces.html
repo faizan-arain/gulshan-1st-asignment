@@ -1,0 +1,78 @@
+.container{
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ACCESS IMAGE</title>
+        <style>
+    
+            body{
+                background-color: black;
+            }
+            .container{
+                color: aliceblue;
+                width: 100%;
+                height: 950px;
+            }
+            .container a button{
+                width: 170px;
+                height: 30px;
+                border-radius: 50px;
+                margin: 20px 190px;
+            }
+            .container .item1{
+                width: 100%;
+                height: 350px;
+    
+            }
+            .container .item1 img{
+                width: 70%;
+                height: 300px;
+                padding: 25px 180px;
+         }
+    
+         .container .item2{
+            width: 100%;
+            height: 300px;
+         }
+         .container .item2 span{
+            font-size: 60px;
+            display: flex;
+            justify-content: center;
+    }
+    .container .item2 p{
+        padding: 10px 25px;
+    }
+    
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <a href="../index.html"><button>GO TO BACK</button></a>
+    
+            <div class="item1">
+                <img src="../images/acces.png" alt="abc">
+            </div>
+            <div class="item2">
+                <span>ACCESS</span>
+                <P> An access definition is a declaration that identifies the start table, related tables, relationships, and selection criteria that define the data to be processed.
+
+                    An access definition identifies the tables, relationship traversal, and selection criteria for the data that you want to process. An access definition might also identify tables from which archived data is deleted. It also provides parameters for indexes and archive actions: user-defined SQL statements run at predefined points in an archive or restore process. You can select a named access definition or create an access definition for a single archive request.
+                    
+                    Use an access definition to complete the following tasks:
+                    Identify the tables from which data is archived in the archive process. You can insert the name of a single table and request that Optim™ reads and provides the names of all related tables. One table is identified as the start table, or table from which data is first archived.
+                    Identify tables from which data is deleted after archiving. You can set an option to review and change your selections before data is deleted.
+                    Select relationships to be traversed and the direction of traversal when archiving the data. You can use relationships defined to the database and create relationships in the Optim directory to replicate the relationships that are managed by your applications.
+                    Define criteria for the set of related rows to be archived. The criteria can be defined in either of the following ways:
+                    Selection criteria based on the age of the data or values in one or more columns.
+                    A manually selected list of start table rows (Point and Shoot).
+                    Set up indexes to be created when data is archived.
+                    Establish archive actions to be run when data is archived or restored.
+                    Review how Optim traverses the database to ensure that the correct data is archived (by using the show steps function).
+                    </P>
+            </div>
+    
+        </div>
+    </body>
+    </html>
